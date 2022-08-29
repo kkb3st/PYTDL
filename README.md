@@ -9,8 +9,8 @@ or \
 ## Usage
 execute the .py file (YT_to_mp3.py for MP3 files, YT_to_mp4.py for MP4 files)\
 then enter the URL to the video (just copy-paste from browser)\
-and wait until it´s finished.\
+and wait until it´s finished.
 
-you will find your MP3 / MP4 file in the same directory as the script.\
+you will find your MP3 / MP4 file in the same directory as the script.
 
 have fun!
