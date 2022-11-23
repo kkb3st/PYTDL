@@ -1,12 +1,7 @@
-from __future__ import unicode_literals
-import youtube_dl
+# YT_to_mp4.py
 
-video_url = input("Enter video url:")
-video_info = youtube_dl.YoutubeDL().extract_info(url=video_url, download=False)
-file_name = video_info['title'] + ".mp4"
-ydl_opts = {}
-with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-    ydl.download([video_info['webpage_url']])
+from pytube import YouTube
 
-print("Download complete! {}".format(file_name))
-    
+link = input("Enter video link:")
+video = YouTube(link).streams.filter(file_extension="mp4").first()
+video.download()
