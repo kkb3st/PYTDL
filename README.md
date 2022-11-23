@@ -2,9 +2,9 @@
 a python script which can download any youtube video as mp3 and mp4
 
 ## Requirements
-`python -m pip install youtube-dl` (Windows)\
+`python -m pip install pytube` (Windows)\
 or \
-`sudo python3 -m pip install youtube-dl` (Linux)
+`sudo python3 -m pip install pytube` (Linux)
 
 ## Usage
 execute the .py file (YT_to_mp3.py for MP3 files, YT_to_mp4.py for MP4 files)\
